@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a34147b28f368be023bbd59d1ea0eb95",
+    "revision": "8b89e55675e628d4c016a830f1476b12",
     "url": "/react-deploy/index.html"
   },
   {
-    "revision": "dac70f7387b303764c6a",
+    "revision": "ff4b292f681498e6ff4c",
     "url": "/react-deploy/static/css/main.8ab6f918.chunk.css"
   },
   {
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/js/2.d6d43cce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dac70f7387b303764c6a",
-    "url": "/react-deploy/static/js/main.aff516d1.chunk.js"
+    "revision": "ff4b292f681498e6ff4c",
+    "url": "/react-deploy/static/js/main.8ff83a14.chunk.js"
   },
   {
     "revision": "4d275ecffff8f8311b08",
     "url": "/react-deploy/static/js/runtime-main.8e4be4b4.js"
   },
   {
-    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
-    "url": "/react-deploy/static/media/logo.ee7cd8ed.svg"
+    "revision": "e89a552c19042db10614bc7094021307",
+    "url": "/react-deploy/static/media/rick-astley.e89a552c.gif"
   }
 ]);
