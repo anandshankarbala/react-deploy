@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b89e55675e628d4c016a830f1476b12",
+    "revision": "cc41dc49263651e41087eef8bbe0402e",
     "url": "/react-deploy/index.html"
   },
   {
-    "revision": "ff4b292f681498e6ff4c",
-    "url": "/react-deploy/static/css/main.8ab6f918.chunk.css"
+    "revision": "7584e60d302a5c751acd",
+    "url": "/react-deploy/static/css/main.4d06dd87.chunk.css"
   },
   {
     "revision": "a1bc7dcb0ddda7c2efa0",
@@ -16,15 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/js/2.d6d43cce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ff4b292f681498e6ff4c",
-    "url": "/react-deploy/static/js/main.8ff83a14.chunk.js"
+    "revision": "7584e60d302a5c751acd",
+    "url": "/react-deploy/static/js/main.4308d62f.chunk.js"
   },
   {
     "revision": "4d275ecffff8f8311b08",
     "url": "/react-deploy/static/js/runtime-main.8e4be4b4.js"
   },
   {
-    "revision": "e89a552c19042db10614bc7094021307",
-    "url": "/react-deploy/static/media/rick-astley.e89a552c.gif"
+    "revision": "3db2920d9ac216ad5ea3abd7d3680aa9",
+    "url": "/react-deploy/static/media/balaIcon.3db2920d.jpg"
   }
 ]);
