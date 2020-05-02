@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={balaIcon} className="App-logo" alt="logo" />
         <p>N.BALASUBRAMANIAN</p>
-        <p>Advisor:Investments/Insurance<div>blog: yourbala63.blogspot.in</div></p>
+        <p>Advisor:Investments/Insurance<div>blogspot: yourbala63.blogspot.in</div></p>
       </header>
     </div>
   );
