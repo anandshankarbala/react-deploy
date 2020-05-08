@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default () => {
+export default ({portfolioLinks}) => {
     return (
         <section className="bg-light page-section" id="portfolio">
     <div className="container">
@@ -11,90 +11,25 @@ export default () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
+        {   
+            portfolioLinks && portfolioLinks.map((pItem,index) => 
+            <div key = {index} className="col-md-4 col-sm-6 portfolio-item">
+            <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div className="portfolio-hover">
+                <div className="portfolio-hover-content">
+                  <i className="fa fa-plus fa-3x"></i>
+                </div>
               </div>
+              <img className="img-fluid" src={ `https://unsplash.it/350/140/?${Math.floor(Math.random(0,100) * 100)}` } alt="portfolio_img"/>
+            </a>
+            <div className="portfolio-caption">
+              <h4>{ pItem.title }</h4>
+              <p className="text-muted">{ pItem.caption }</p>
             </div>
-            <img className="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Threads</h4>
-            <p className="text-muted">Illustration</p>
           </div>
-        </div>
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img className="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Explore</h4>
-            <p className="text-muted">Graphic Design</p>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img className="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Finish</h4>
-            <p className="text-muted">Identity</p>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img className="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Lines</h4>
-            <p className="text-muted">Branding</p>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img className="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Southwest</h4>
-            <p className="text-muted">Website Design</p>
-          </div>
-        </div>
-        <div className="col-md-4 col-sm-6 portfolio-item">
-          <a className="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div className="portfolio-hover">
-              <div className="portfolio-hover-content">
-                <i className="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img className="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt=""/>
-          </a>
-          <div className="portfolio-caption">
-            <h4>Window</h4>
-            <p className="text-muted">Photography</p>
-          </div>
-        </div>
+            )
+        }
+
       </div>
     </div>
   </section>
